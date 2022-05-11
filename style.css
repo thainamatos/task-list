@@ -116,6 +116,10 @@ main {
     transition: 0.4s;
 }
  
+#tasks .task .content {
+    flex: 1 1 0%;
+}
+
 #tasks .task .content .text:not(:read-only){
     color: var(--pink);
 }
@@ -154,4 +158,11 @@ main {
 
 .task .actions .delete {
     color: rgb(220, 20, 60)
+}
+
+.image {
+   position: relative;
+   padding: 1.7rem 0 2rem;
+   display: flex;
+   justify-content: start;
 }
